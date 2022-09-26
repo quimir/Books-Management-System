@@ -8,7 +8,6 @@ public:
 	SystemAdd(int _bookTemp = 0, int _periodicalTemp = 0) : bookTemp(_bookTemp), periodicalTemp(_periodicalTemp) {};
 	//添加图书
 	void addBook(System*);
-	;
 	/// @brief 对添加书籍的判断
 	/// @param  传入写入的字符串
 	/// @return 如果改书籍存在那么返回false，否则返回true

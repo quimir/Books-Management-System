@@ -6,7 +6,7 @@ class SystemShow : protected System
 {
 public:
 	//本构造函数没有什么任何意义只是为了让系统回收本块内存所创立出来的，如果使用new我暂时没有想到如何进行内存释放
-	SystemShow(int i = 0, int b = 0) {}
+	SystemShow(int i = 0, int b = 0) {};
 
 	//开始的选择目录
 	void choose(System*, SystemAdd*);

@@ -29,7 +29,6 @@ public:
     /// @param number 上一次的选择值
     void alterNumberDouble(int);
 
-    int neumShow();
 
 
 private:
